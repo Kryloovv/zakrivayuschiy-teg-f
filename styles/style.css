@@ -265,10 +265,10 @@
 
 .button-text {
   color: var(--button-text-color);
+  mix-blend-mode: difference;
   font-family: var(--accent-font, sans-serif);
   font-size: 14px;
-  line-height: 13px;
-  mix-blend-mode: difference;
+  line-height: 12.6px;
 }
 
 .save {

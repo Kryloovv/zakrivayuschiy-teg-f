@@ -429,7 +429,7 @@
     </article>
   </main>
 
-  <button type="button" class="save button-animation" onclick="window['dialog'].showModal();" aria-controls="dialog">
+  <button type="button" class="save button-animation" onclick="window['popup'].showModal();" aria-controls="popup">
     <svg viewBox="0 0 28 28" class="floppy">
       <use href="./svg/floppy.svg#floppy" />
     </svg>
@@ -438,7 +438,7 @@
     </span>
   </button>
 
-  <dialog id="dialog" class="popup">
+  <dialog id="popup" class="popup">
     <div class="popup__container">
       <svg viewBox="0 0 28 28" class="floppy">
         <use href="./svg/floppy.svg#floppy" />
@@ -449,9 +449,11 @@
         продолжить
       </p>
     </div>
-    <button type="button" class="popup__button button-animation" onclick="window['dialog'].close()">
-      <span class="button-text">OK</span>
-    </button>
+    <form method="dialog">
+      <button class="popup__button button-animation">
+        <span class="button-text">OK</span>
+      </button>
+    </form>
   </dialog>
 
   <script src="./scripts/like.js"></script>
