@@ -1,1 +1,1 @@
-https://github.com/Kryloovv/zakrivayuschiy-teg-f.git 
+https://github.com/Kryloovv/zakrivayuschiy-teg-f.git
