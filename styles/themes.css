@@ -6,8 +6,8 @@
 */
 
 :root.theme-light {
-  --main-font: 'Inter';
-  --accent-font: 'PressStart2P';
+  --main-font: 'Inter', sans-serif;
+  --accent-font: 'PressStart2P', sans-serif;
   --background-color: #FFF;
   --accent-color: #000;
   --button-text-color: #FFF;
@@ -23,8 +23,8 @@
 }
 
  :root.theme-dark {
-  --main-font: 'Inter';
-  --accent-font: 'PressStart2P';
+  --main-font: 'Inter', sans-serif;
+  --accent-font: 'PressStart2P', sans-serif;
   --background-color: #000;
   --accent-color: #00CC14;
   --button-text-color: #00CC14;
@@ -44,7 +44,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font: 'Inter';
+    --main-font: 'Inter', sans-serif;
     --accent-font: 'PressStart2P';
     --background-color: #000;
     --accent-color: #00CC14;

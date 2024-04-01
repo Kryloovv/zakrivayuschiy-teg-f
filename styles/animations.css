@@ -45,13 +45,13 @@
 
 .like-icon.is-liked .contour {
   fill: var(--fill-like-icon);
-  transition: fill 0.3s 0.06s;
+  transition: fill 0.3s 0.06s linear;
 }
 
 .main-body {
   opacity: 0;
   fill: var(--accent-color);
-  transition: opacity 0.3s;
+  transition: opacity 0.3s linear;
 }
 
 .like-icon:hover .main-body {
@@ -73,7 +73,7 @@
 .core {
   opacity: 0;
   fill: var(--accent-color);
-  transition: opacity 0.3s 0.03s;
+  transition: opacity 0.3s 0.03s linear;
 }
 
 .like-icon:hover .core {

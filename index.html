@@ -20,12 +20,10 @@
   <body class="page">
     <header class="header card-size">
       <div class="header__logo-container">
-        <a href="#" class="header__logo-link">
-          <h1 class="header__logo">&lt;/HTML&gt;</h1>
-        </a>
-        <p class="header__title">
-          закрывающи<span class="decorative">й</span> тег
-        </p>
+        <a href="#" class="header__logo-link">&lt;/HTML&gt;</a>
+        <h1 class="header__title">
+          закрывающий тег
+        </h1>
       </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -34,7 +32,7 @@
             <button
               type="button"
               data-theme="dark"
-              class="theme-menu__button theme-menu__button_focused"
+              class="theme-menu__button"
             >
               Темно
             </button>
@@ -44,7 +42,7 @@
               type="button"
               data-theme="auto"
               disabled
-              class="theme-menu__button theme-menu__button_focused"
+              class="theme-menu__button"
             >
               Авто
             </button>
@@ -53,7 +51,7 @@
             <button
               type="button"
               data-theme="light"
-              class="theme-menu__button theme-menu__button_focused"
+              class="theme-menu__button"
             >
               Светло
             </button>
@@ -69,7 +67,7 @@
         </h2>
         <div class="card__container-image">
           <img
-            class="card__image preparation"
+            class="card__image card__image_filter_brightness"
             src="./images/image1.jpeg"
             alt="Школьник делает записи в тетради."
           />
@@ -119,7 +117,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -129,9 +127,10 @@
         <h2 class="card__title">1 спринт: Я — чистый лист</h2>
         <div class="card__container-image">
           <img
-            class="card__image sheet"
+            class="card__image card__image_filter_contrast"
             src="./images/image2.jpeg"
             alt="Чистая тетрадь"
+            loading="lazy"
           />
           <span class="label">&lt;/HTML&gt;</span>
         </div>
@@ -181,7 +180,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -191,9 +190,10 @@
         <h2 class="card__title">1 спринт: А если не получится?</h2>
         <div class="card__container-image">
           <img
-            class="card__image fear"
+            class="card__image card__image_filter_blur"
             src="./images/image3.jpeg"
             alt="Французский бульдог."
+            loading="lazy"
           />
           <span class="label">&lt;CSS&gt;</span>
         </div>
@@ -241,7 +241,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -251,9 +251,10 @@
         <h2 class="card__title">2 спринт: Погоня за идеалом</h2>
         <div class="card__container-image">
           <img
-            class="card__image ideal"
+            class="card__image card__image_filter_opacity"
             src="./images/image4.jpg"
             alt="Инструмент уровень."
+            loading="lazy"
           />
           <span class="label">&lt;desigions&gt;</span>
         </div>
@@ -303,7 +304,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -313,9 +314,10 @@
         <h2 class="card__title">2 спринт: О тех, кто рядом</h2>
         <div class="card__container-image">
           <img
-            class="card__image support"
+            class="card__image card__image_filter_saturate"
             src="./images/image5.jpg"
             alt="Друзья в обнимку встречают рассвет."
+            loading="lazy"
           />
           <span class="label">care</span>
         </div>
@@ -366,7 +368,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -376,9 +378,10 @@
         <h2 class="card__title">3 спринт: Обходные стратегии</h2>
         <div class="card__container-image">
           <img
-            class="card__image strategies"
+            class="card__image card__image_filter_hue-rotate"
             src="./images/image6.jpg"
             alt="Записи на доске."
+            loading="lazy"
           />
           <span class="label">&lt;support&gt;</span>
         </div>
@@ -426,7 +429,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -436,9 +439,10 @@
         <h2 class="card__title">3 спринт: Когда опускаются руки</h2>
         <div class="card__container-image">
           <img
-            class="card__image tears"
+            class="card__image card__image_filter_grayscale"
             src="./images/image7.jpg"
             alt="Грустная собака."
+            loading="lazy"
           />
           <span class="label">&lt;lifes-style: none;&gt;</span>
         </div>
@@ -488,7 +492,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -498,9 +502,10 @@
         <h2 class="card__title">«Сейчас я здесь»</h2>
         <div class="card__container-image">
           <img
-            class="card__image way"
+            class="card__image card__image_filter_multiple"
             src="./images/image8.jpg"
             alt="Навигатор на телефоне."
+            loading="lazy"
           />
           <span class="label">&lt;experience&gt;</span>
         </div>
@@ -552,7 +557,7 @@
               </svg>
             </button>
             <button class="card__like-button button-animation">
-              <span class="button-text">Like</span>
+              <span class="button__text">Like</span>
             </button>
           </div>
         </div>
@@ -568,7 +573,7 @@
       <svg viewBox="0 0 28 28" class="floppy">
         <use href="./svg/floppy.svg#floppy" />
       </svg>
-      <span class="button-text"> Сохранить на память </span>
+      <span class="button__text"> Сохранить на память </span>
     </button>
 
     <dialog id="popup" class="popup">
@@ -580,7 +585,7 @@
       </div>
       <form method="dialog">
         <button class="popup__button button-animation">
-          <span class="button-text">OK</span>
+          <span class="button__text">OK</span>
         </button>
       </form>
     </dialog>
